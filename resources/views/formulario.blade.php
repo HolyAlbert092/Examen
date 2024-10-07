@@ -225,12 +225,12 @@
         $('#formulario').submit();  
       });
        $('#btnEnviar').on('click',function() {
-       		//validar();
+       		validar();
         	$('#formulario').submit();
        });
 
       verificarCampos();
-      //coords();
+      coords();
 	 </script>
 
 </body>
